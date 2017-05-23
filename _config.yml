@@ -30,7 +30,6 @@ defaults:
     layout: video
     permalink: "/videos/:title/"
 permalink: pretty
-
 sass:
   sass_dir: assets/stylesheets/
   style: compressed
