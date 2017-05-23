@@ -9,7 +9,9 @@ header:
   url: http://timespent.bigcartel.com/
   target: _blank
 footer:
-  email: timespentwith@gmail.com
+  email:
+    title: timespentwith@gmail.com
+    url: timespentwith@gmail.com
   social:
   - title: Twitter
     url: https://twitter.com/t1mespent

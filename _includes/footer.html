@@ -1,0 +1,21 @@
+<footer class='site-footer'>
+  <div class='grid-container'>
+    <div class='grid-row'>
+      <div class='col-full'>
+        <div class='footer-row'>
+          {% assign email = site.data.navigation.footer.email %}
+          <a href="mailto:{{email.url}}">{{email.title}}</a>
+        </div>
+        <div class='footer-row'>
+          {% assign socialLinks = site.data.navigation.footer.social %}
+          {% for socialLink in socialLinks %}
+            <a href="{{socialLink.url}}" target="{{socialLink.target}}">{{socialLink.title}}</a>
+          {% endfor %}
+        </div>
+        <div class='footer-row'>
+          &copy;2017 {{site.title}}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
