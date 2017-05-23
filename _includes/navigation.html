@@ -2,7 +2,7 @@
   {% assign url = page.url %}
   {% for navItem in site.data.navigation.header %}
     <div {% if url == navItem.url %} class="site-nav__item--active site-nav__item" {% else %} class="site-nav__item" {% endif %}>
-      <a href="{{navItem.url}}">{{navItem.title}}</a>
+      <a href="{{navItem.url}}" target="{{navItem.target}}">{{navItem.title}}</a>
     </div>
   {% endfor %}
 </nav>
