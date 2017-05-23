@@ -1,0 +1,14 @@
+---
+title: Chapman
+date: 2013-09-13
+location: Chicago, IL
+links:
+  -
+    name: Soundcloud
+    url: "https://soundcloud.com/mynameischapman"
+  -
+    name: Twitter
+    url: "https://twitter.com/mynameischapman"
+---
+
+Having started the project in VA and then expanding to Bmore, we have been exposed to a myriad of new artists. The same is true for the opportunities and collaborations since moving to BKNY. That being said, CTG has been with TIME SPENT since the beginning and we could not have been more excited to showcase a VA artist some 400 miles away from where it all began.

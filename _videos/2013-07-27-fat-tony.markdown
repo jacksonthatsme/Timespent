@@ -1,0 +1,14 @@
+---
+title: Fat Tony
+date: 2013-07-27
+location: Houston, TX
+links:
+  -
+    name: Soundcloud
+    url: "https://soundcloud.com/fattonyrap"
+  -
+    name: Twitter
+    url: "https://twitter.com/fattonyrap"
+---
+
+Getting to shoot with Tony has been in the works for over a year now. Based in Texas, Anthony spends a lot of time in Brooklyn in the summer and our schedules synched up perfectly before he had to head out. It has also been on our minds to give the subway a go for a shooting location. After Matthew hit his head a few times on the poles, we finally got the perfect take- screaming kid and all.

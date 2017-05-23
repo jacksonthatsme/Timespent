@@ -1,0 +1,15 @@
+---
+title: Greedy
+date: 2014-11-03
+location: Baltimore, MD
+published: true
+links:
+  -
+    name: Youtube
+    url: "hhttps://www.youtube.com/channel/UCh54IespTGE5GfjsdUajkZQ"
+  -
+    name: Twitter
+    url: "https://twitter.com/900greedy"
+---
+
+As a part of the B'more edition of Time Spent we present to you Baltimore rapper Greedy. Shot at Flat out right after Greedy and his crews intense live show. 900 - presented by True Laurels at Flat Out

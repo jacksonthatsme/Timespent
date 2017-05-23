@@ -1,0 +1,14 @@
+---
+title: Tom Cruz
+date: 2013-10-13
+location: Atlanta, GA
+links:
+  -
+    name: Bandcamp
+    url: "http://tomcruz.bandcamp.com/"
+  -
+    name: Twitter
+    url: "https://twitter.com/tcruzcontrol"
+---
+
+Tom Cruz is a solo artist/producer from the ATL. This year he and Fat Tony put out one of the best rap albums of the year with Smart Ass Black Boy. We have been trying to work with Tom Cruz for months now. We bumped into him at a show during the Little Pain shoot and asked when he wanted to do a video. his response was NOW.

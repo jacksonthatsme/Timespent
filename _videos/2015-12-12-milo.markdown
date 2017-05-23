@@ -1,0 +1,14 @@
+---
+title: Milo
+date: 2015-12-12
+location: Kenosha, WI
+links:
+  -
+    name: Bandcamp
+    url: "miloraps.bandcamp.com"
+  -
+    name: Twitter
+    url: "https://twitter.com/yomilo"
+---
+
+We ran into rapper & producer milo after an incredible show in Bed-stuy with Hemlock Ernst, Chris Misch-bloxdorf Dectet and special guest Elucid. We shot this right outside the venue following milo's set amazing set. Special thanks to hemlock & a few lingering fans who helped us out.

@@ -1,0 +1,14 @@
+---
+title: KING K.O.N.G.
+date: 2013-07-26
+location: Long Island, NY
+links:
+  -
+    name: Soundcloud
+    url: "https://soundcloud.com/kingthakong"
+  -
+    name: Twitter
+    url: "https://twitter.com/thekong89"
+---
+
+A few years back, Ronin met Elan in Israel on the Birthright trip and became good friends. After Ronin moved to NY the chance to meet up arose after Elan had heard of the project. This video marks the first time Ronin and Elan have met in the U.S.

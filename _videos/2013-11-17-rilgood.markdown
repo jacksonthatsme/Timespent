@@ -1,0 +1,14 @@
+---
+title: Rilgood
+date: 2013-11-17
+location: Brooklyn, NY
+links:
+  -
+    name: Website
+    url: "https://soundcloud.com/rilgood"
+  -
+    name: Twitter
+    url: "https://twitter.com/rilgood?lang=en"
+---
+
+Rilgood is a Nigerian born, Brooklyn raised rapper. We met up with him at his family's home in Canarsie. When we saw the old Lexus by the house we knew we had to feature it. Rilgood simply responded, 'Take you back to the dude with the Lexus, fast-forward the jewels and the necklace'.
