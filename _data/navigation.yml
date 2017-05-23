@@ -1,0 +1,16 @@
+header:
+- title: Videos
+  url: /
+- title: About
+  url: /about/
+- title: Shop
+  url: http://timespent.bigcartel.com/
+footer:
+  email: timespentwith@gmail.com
+  social:
+  - title: Twitter
+    url: https://twitter.com/t1mespent
+  - title: Instagram
+    url: https://www.instagram.com/timespenton/
+  - title: Facebook
+    url: https://www.facebook.com/t1mespent
