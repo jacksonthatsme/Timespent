@@ -1,4 +1,5 @@
 ---
-layout: index
 title: All Videos
+layout: index
 ---
+
