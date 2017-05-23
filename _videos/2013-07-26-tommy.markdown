@@ -1,14 +1,12 @@
 ---
 title: Tommy
-date: 2013-07-26
+date: 2013-07-26 00:00:00 Z
 location: Detroit, MI
 links:
-  -
-    name: Website
-    url: "http://xvials.tumblr.com/"
-  -
-    name: Twitter
-    url: "https://twitter.com/CYBAKILLA"
+- name: Website
+  url: http://xvials.tumblr.com/
+- name: Twitter
+  url: https://twitter.com/CYBAKILLA
 ---
 
 TOMMY was suggested to us through an old friend and like most videos, we met for the first time on location. The particular piece was one of the longer ones we had done and we wanted to work with an alternative to cutting to break it into two pieces. The solution was to climb a stair case and follow TOMMY to the 2nd half of his rap. Also, this marks our first threat... thanks for the shout out TOMMY!

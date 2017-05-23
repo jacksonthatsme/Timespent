@@ -1,14 +1,12 @@
 ---
 title: Greg Ward
-date: 2011-09-07
+date: 2011-09-07 00:00:00 Z
 location: Baltimore, MD
 links:
-  -
-    name: Website
-    url: "http://rapdragons.ltdcomp.com/RAPDRAGONS/RAPDRAGONS.html"
-  -
-    name: Twitter
-    url: "https://twitter.com/Greginit"
+- name: Website
+  url: http://rapdragons.ltdcomp.com/RAPDRAGONS/RAPDRAGONS.html
+- name: Twitter
+  url: https://twitter.com/Greginit
 ---
 
 Hanging out with Greg is like meeting an instant best friend. He even shares our love and support for the VHS medium (it's all he watches). For this shoot we decided to show Greg in his apartment, which was very dark. Our solution was to literally hold a desk lamp over the camera while walking through the house. The added shadows and bright colors gave this video a whole new feel. Greg Ward raps with Nick Often in Rap Dragons.

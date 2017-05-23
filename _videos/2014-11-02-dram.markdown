@@ -1,14 +1,12 @@
 ---
 title: D.R.A.M.
-date: 2014-11-02
+date: 2014-11-02 00:00:00 Z
 location: Hampton, VA
 links:
-  -
-    name: Website
-    url: "http://www.only1dram.com/"
-  -
-    name: Twitter
-    url: "https://twitter.com/ONLY1DRAM"
+- name: Website
+  url: http://www.only1dram.com/
+- name: Twitter
+  url: https://twitter.com/ONLY1DRAM
 ---
 
 The future of hip hop is from our home town of Hampton roads Virginia and his name is D.R.A.M. - prestend by True Laurels at Flat Out
