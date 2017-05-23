@@ -2,6 +2,25 @@
 layout: frame
 ---
 
+<main>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="col-center col-full col-md-16-24">
+        {% include media-player.html %}
+      </div>
+    </div>
+  </div>
+</main>
+
 {% for item in site.videos %}
   <h1>{{item.title}}</h1>
 {% endfor %}
+
+<section class="video-collection" data-js: "video-collection">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="col-center col-24-24 col-md-16-24">
+      </div>
+    <div>
+  </div>
+</section>
