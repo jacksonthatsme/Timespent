@@ -13,29 +13,39 @@ layout: frame
 </main>
 
 {% for videoItem in site.videos %}
-
-  {% capture moduloPattern %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
-
-  {% if moduloPattern == '0' or forloop.first %}
-    <div class="row">
-  {% endif %}
-
-    <div class="two-columns">
-      {{videoItem.title}}
-    </div>
-
-  {% if moduloPattern == '1' or forloop.last %}
-    </div>
-  {% endif %}
-
-{% endfor %}
-
-
-<section class="video-collection" data-js: "video-collection">
+<section class="video-collection" data-js="video-collection">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="col-center col-24-24 col-md-16-24">
+      <div class="col-center col-full col-md-16-24">
+        {% for videoItem in site.videos %}
+
+          {% capture moduloPattern %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+
+          {% if moduloPattern == '0' or forloop.first %}
+            <div class="grid-row">
+          {% endif %}
+
+            <div class="col-12-24 col-md-8-16">
+              <div class="video-item" data-js="video-item" data-marquee-title="{{videoItem.title}} -- {{videoItem.location}} -- {{videoItem.date | date: '%B, %Y'}}" data-mp4-src="assets/videos/{{videoItem.title | slugify}}">
+                <div class="video-item__img" style="background-image: url(assets/images/videos/{{videoItem.title | slugify}}.png)">
+                  <div class="video-item__overlay">
+                    <div class="video-item__cta" data-js="video-item__cta">
+                      play
+                    </div>
+                    <div class="video-item__title">
+                      {{videoItem.title}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          {% if moduloPattern == '1' or forloop.last %}
+            </div>
+          {% endif %}
+
+        {% endfor %}
       </div>
-    <div>
+    </div>
   </div>
 </section>

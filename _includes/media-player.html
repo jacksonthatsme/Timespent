@@ -1,1 +1,60 @@
-
+<div class="media-player" data-js="media-player">
+  <div class="media-player__header">
+    <div class="media-player__marquee" data-js="media-player__marquee">
+      <div class="media-player__marquee__title" data-js="media-player__marquee__title">
+        NO BEAT NO HOOK NO MUSIC NO CUTS
+      </div>
+    </div>
+  </div>
+  <div class="media-player__body">
+    <div class="media-player__video">
+      <div class="media-player__video__placeholder">
+        <img src="/assets/images/media-player/placeholder.gif" alt="TIMESPENT">
+      </div>
+      <video id="js-video-player__video" class="video-player__video">
+        <source type="video/mp4" id="js-video-player__source--mp4"/>
+      </video>
+      <div class="media-player__video__overlay">
+        <div class="media-player__video__overlay__video-state">
+          <div class="video-state--counter">
+            <span class="video-state--counter__progress" data-js="video-state--counter__progress">
+              0:00
+            </span>
+            --
+            <span class="video-state--counter__total" data-js="video-state--counter__total">
+              0:00
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="media-player__controls">
+    <div class="media-player__controls__layer media-player__controls__layer--1">
+      <div class="media-player__controls__section media-player__controls__section--right media-player__controls__section--right--small">
+        <div class="media-player__button" data-js="mute-video">
+          <div class="media-player__button__inner media-player__mute-video volume-indicator" data-js="volume-indicator"></div>
+        </div>
+      </div>
+      <div class="media-player__controls__section media-player__controls__section--right media-player__controls__section--right--large">
+        <div class="volume-indicator" data-js="mute-video volume-indicator"></div>
+        <div class="media-player__slider__wrapper">
+          <div class="media-player__slider js-media-player__slider" data-js="media-player__slider"></div>
+        </div>
+      </div>
+    </div>
+    <div class="media-player__controls__layer media-player__controls__layer--2">
+      <div class="media-player__controls__section media-player__controls__section--main">
+        <div class="media-player__button media-player__button--left js-prev-video" data-js="prev-video">
+          <div class="media-player__button__inner media-player__prev-video"></div>
+        </div>
+        <div class="media-player__button media-player__button--large js-play-video" data-js="play-video">
+          <div class="media-player__button__inner media-player__play-state js-media-player__play-state media-player__play-state--pause" data-js="media-player__play-state"></div>
+        </div>
+        <div class="media-player__button media-player__button--right js-next-video" data-js="next-video">
+          <div class="media-player__button__inner media-player__next-video"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
