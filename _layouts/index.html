@@ -12,9 +12,24 @@ layout: frame
   </div>
 </main>
 
-{% for item in site.videos %}
-  <h1>{{item.title}}</h1>
+{% for videoItem in site.videos %}
+
+  {% capture moduloPattern %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
+
+  {% if moduloPattern == '0' or forloop.first %}
+    <div class="row">
+  {% endif %}
+
+    <div class="two-columns">
+      {{videoItem.title}}
+    </div>
+
+  {% if moduloPattern == '1' or forloop.last %}
+    </div>
+  {% endif %}
+
 {% endfor %}
+
 
 <section class="video-collection" data-js: "video-collection">
   <div class="grid-container">
