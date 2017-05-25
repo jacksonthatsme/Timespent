@@ -45,3 +45,4 @@ assets:
   - _assets/videos
   - _assets/fonts
   - _assets/javascripts
+  - _assets/javascripts/vendor

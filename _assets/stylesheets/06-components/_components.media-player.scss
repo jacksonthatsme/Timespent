@@ -169,6 +169,7 @@
   @include aspect-ratio(4,3);
   @include proscenium(true);
   background-color: #000000;
+  overflow: hidden;
 }
 
 .media-player__video__overlay {
@@ -179,10 +180,13 @@
 
 .media-player__video__placeholder {
   @include proscenium__layer(0px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: $blue--500;
+  visibility: hidden;
+  background-size: cover;
+
+  &.visible {
+    visibility: visible;
+  }
 }
 
 .video-player__video {

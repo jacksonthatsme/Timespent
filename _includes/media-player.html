@@ -1,16 +1,15 @@
+{% assign firstVideo = site.videos.last%}
+{% capture firstVideoMarquee %}{{firstVideo.title}} -- {{firstVideo.location}} -- {{firstVideo.date | date: '%B, %Y'}}{% endcapture %}
 <div class="media-player" data-js="media-player">
   <div class="media-player__header">
     <div class="media-player__marquee" data-js="media-player__marquee">
       <div class="media-player__marquee__title" data-js="media-player__marquee__title">
-        NO BEAT NO HOOK NO MUSIC NO CUTS
+        {{firstVideoMarquee}}
       </div>
     </div>
   </div>
   <div class="media-player__body">
     <div class="media-player__video">
-      <div class="media-player__video__placeholder">
-        <img src="{% asset_path media-player/placeholder.gif %}" alt="TIMESPENT">
-      </div>
       <video id="js-video-player__video" class="video-player__video">
         <source type="video/mp4" id="js-video-player__source--mp4"/>
       </video>
@@ -26,6 +25,9 @@
             </span>
           </div>
         </div>
+      </div>
+      {% capture firstVideoImg %}videos/{{firstVideo.title | slugify}}.png{% endcapture %}
+      <div class="media-player__video__placeholder visible" style="background-image: url({{ firstVideoImg | asset_path }})" data-js="media-player__video__placeholder">
       </div>
     </div>
   </div>

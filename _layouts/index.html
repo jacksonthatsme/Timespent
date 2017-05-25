@@ -25,9 +25,10 @@ layout: frame
           {% endif %}
 
             <div class="col-12-24 col-md-8-16">
-              <div class="video-item" data-js="video-item" data-marquee-title="{{videoItem.title}} -- {{videoItem.location}} -- {{videoItem.date | date: '%B, %Y'}}" data-mp4-src="assets/videos/{{videoItem.title | slugify}}">
+              {% capture videoMP4Path %}{{videoItem.title | slugify}}.mp4{% endcapture %}
+              <div class="video-item" data-js="video-item" data-marquee-title="{{videoItem.title}} -- {{videoItem.location}} -- {{videoItem.date | date: '%B, %Y'}}" data-mp4-src="{{ videoMP4Path | asset_path }}">
                 {% capture videoImgPath %}videos/{{videoItem.title | slugify}}.png{% endcapture %}
-                <div class="video-item__img" style="background-image: url({{ videoImgPath | asset_path }})">
+                <div class="video-item__img" style="background-image: url({{ videoImgPath | asset_path }})" data-js="video-item__img">
                   <div class="video-item__overlay">
                     <div class="video-item__cta" data-js="video-item__cta">
                       play
