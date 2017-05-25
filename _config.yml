@@ -30,14 +30,12 @@ defaults:
     layout: video
     permalink: "/videos/:title/"
 permalink: pretty
-
 gems:
-  - jekyll-assets
-
+- jekyll-assets
 assets:
   sources:
-    - _assets/stylesheets
-    - _assets/images
-    - _assets/videos
-    - _assets/fonts
-    - _assets/javascripts
+  - _assets/stylesheets
+  - _assets/images
+  - _assets/videos
+  - _assets/fonts
+  - _assets/javascripts
