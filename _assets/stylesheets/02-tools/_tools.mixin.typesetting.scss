@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// MIXINS: Typesetting
+// ------------------------------------------------------------------
+
+
+@mixin type-setting($type-size, $line-height: null, $uppercase: true, $font-style: normal) {
+
+  // Set font size based on typesizes map
+  font-size: map-deep-get($typesizes, $type-size, 'font-size');
+
+  // Set custom line-height if available
+  @if $line-height == null {
+    line-height: map-deep-get($typesizes, $type-size, 'line-height');
+  } @else {
+    line-height: $line-height;
+  }
+
+  // Determine whether or not to use all caps
+  @if $uppercase == true {
+    text-transform: uppercase;
+  }
+
+  // Set font style
+  font-style: unquote($font-style);
+}

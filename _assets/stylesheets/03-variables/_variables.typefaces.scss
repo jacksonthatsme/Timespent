@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+// VARIABLES: Typefaces
+// ------------------------------------------------------------------
+
+
+// Typefaces
+// ------------------------------------------------------------------
+
+// Fallbacks
+$type-family-fallbacks: 'Andale Mono', 'Lucida Console', Monaco, monospace;
+
+//Font Weights
+$type-family-asm-regular: 'ASM-Regular', #{$type-family-fallbacks};

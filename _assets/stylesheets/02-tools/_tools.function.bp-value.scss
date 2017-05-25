@@ -1,0 +1,8 @@
+// ------------------------------------------------------------------
+// MIXINS: BP Value
+// ------------------------------------------------------------------
+
+
+@function bp-value($breakpoint, $param){
+  @return map-deep-get($vo-grid, breakpoints, $breakpoint, $param)
+};

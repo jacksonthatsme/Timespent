@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Components : Manifesto
+// ------------------------------------------------------------------
+
+.manifesto__subhead {
+  @include type-setting(medium);
+  text-align: center;
+  margin-top: 80px;
+}
+
+.manifesto__body {
+  @include type-setting(base);
+  text-align: justify;
+  margin-top: 20px;
+}

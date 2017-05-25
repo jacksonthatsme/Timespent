@@ -1,0 +1,12 @@
+// ------------------------------------------------------------------
+// GENERIC: Typefaces
+// ------------------------------------------------------------------
+
+@font-face {
+  font-family: 'ASM-Regular';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61092/webfont--asm-regular.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61092/webfont--asm-regular.eot?#iefix') format('embedded-opentype'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61092/webfont--asm-regular.woff2') format('woff2'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61092/webfont--asm-regular.woff') format('woff'),
+       url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61092/webfont--asm-regular.ttf') format('truetype');
+}

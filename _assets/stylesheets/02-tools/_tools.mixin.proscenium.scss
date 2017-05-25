@@ -1,0 +1,29 @@
+// ------------------------------------------------------------------
+// MIXINS: Proscenium
+// ------------------------------------------------------------------
+
+
+@mixin aspect-ratio($width, $height) {
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+}
+
+@mixin proscenium($hidden) {
+  position: relative;
+
+  @if $hidden == true {
+    overflow: hidden;
+  }
+}
+
+@mixin proscenium__layer($offset) {
+  position: absolute;
+  top: $offset;
+  left: $offset;
+  bottom: $offset;
+  right: $offset;
+}

@@ -1,0 +1,16 @@
+// ------------------------------------------------------------------
+// Components : Site Footer
+// ------------------------------------------------------------------
+
+.site-footer {
+  margin-bottom: 100px;
+}
+
+.footer-row {
+  text-align: center;
+  margin-top: 40px;
+  @include type-setting(small);
+  @media #{$screen-md-and-up} {
+    @include type-setting(base);
+  }
+}

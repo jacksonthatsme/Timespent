@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// BASE: Document
+// ------------------------------------------------------------------
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+  background-color: $black;
+  color: $white;
+}
+
+body.about {
+  background-color: $blue--500;
+}

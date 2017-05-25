@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------
+// VARIABLES: Media Queries
+// ------------------------------------------------------------------
+//
+// Uses breakpoint variables generated in variables/grid
+//
+// Usage eg: @media #{$screen-sm} { some stuff }
+//
+// ------------------------------------------------------------------
+
+// Extra small screens only
+$screen-xs: "(max-width:" + $bp-xsmall + ")";
+
+// Small screens only
+$screen-sm: "(min-width:" + $bp-small +") and (max-width:" + ($bp-medium - 1) ")";
+
+// All screens from the small breakpoint and up
+$screen-sm-and-up: "(min-width:" + $bp-small + ")";
+
+// Medium screens only
+$screen-md: "(min-width:" + $bp-medium +") and (max-width:" + ($bp-large - 1) ")";
+
+// All screens from the medium breakpoint and up
+$screen-md-and-up: "(min-width:" + $bp-medium + ")";
+
+// Large screens only
+$screen-lg: "(min-width:" + $bp-large + ")";

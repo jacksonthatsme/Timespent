@@ -1,0 +1,28 @@
+// ------------------------------------------------------------------
+// Components : Site Header
+// ------------------------------------------------------------------
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include type-setting(small);
+  @media #{$screen-md-and-up} {
+    @include type-setting(base);
+  }
+}
+
+.site-nav {
+  display: inline-flex;
+}
+
+.site-nav__item {
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+
+  &--active {
+    border-bottom: 2px solid $white;
+  }
+}

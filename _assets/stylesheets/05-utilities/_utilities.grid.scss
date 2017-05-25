@@ -1,0 +1,352 @@
+// ------------------------------------------------------------------
+// UTILITIES: Grid
+// ------------------------------------------------------------------
+
+
+// Grid Column Mixin
+// ------------------------------------------------------------------
+
+@mixin grid-cols($bp-label:null) {
+  @if $bp-label == null {
+    @for $i from 1 through $cols {
+      @for $b from 1 through $cols {
+        @if $i < $b {
+          .col-#{$i}-#{$b} {
+            width: calc(#{$i}/#{$b} * 100%)!important;
+          }
+        }
+      }
+    }
+
+  } @else {
+
+    @for $i from 1 through $cols {
+      @for $b from 1 through $cols {
+        @if $i < $b {
+          .col-#{$bp-label}-#{$i}-#{$b} {
+            width: calc(#{$i}/#{$b} * 100%)!important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Grid container
+// ------------------------------------------------------------------
+
+.grid-container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: bp-value($suffix-first, outer);
+  padding-right: bp-value($suffix-first, outer);
+
+  box-sizing: border-box;
+  * { box-sizing: inherit }
+
+  @each $breakpoint in $bp-suffixes {
+    @media (min-width: bp-value($breakpoint, breakpoint)) {
+      padding-left: bp-value($breakpoint, outer);
+      padding-right: bp-value($breakpoint, outer);
+    }
+  }
+}
+
+// Full-width Grid Containers
+// --------------------------------------------
+// add these classes to .grid-containers to
+// pull its edges to the sides of the container
+
+.grid-container-full {
+  max-width: none;
+  padding-left: 0!important;
+  padding-right: 0!important;
+  overflow: hidden;
+}
+
+@media #{$screen-xs} {
+  .grid-container-full-xs {
+    max-width: none;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    overflow: hidden;
+  }
+}
+
+@media #{$screen-sm} {
+  .grid-container-full-sm {
+    max-width: none;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    overflow: hidden;
+  }
+}
+
+@media #{$screen-md} {
+  .grid-container-full-md {
+    max-width: none;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    overflow: hidden;
+  }
+}
+
+@media #{$screen-lg} {
+  .grid-container-full-lg {
+    max-width: none;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    overflow: hidden;
+  }
+}
+
+
+// Column stacking
+// ------------------------------------------------------------------
+// Grid columns with size classes should default to
+// stacking outside their respective media queries
+
+[class*='col-sm-'],
+[class*='col-md-'],
+[class*='col-lg-'] {
+  width: 100%!important;
+}
+
+
+// General Column Styles
+// ------------------------------------------------------------------
+// Needs a temporary wrapper to keep it from affecting the old grid
+
+.grid-container {
+  [class*='col-'] {
+    vertical-align: top;
+    float: left;
+    position: relative;
+
+    padding-left: bp-value($suffix-first, gutter) / 2;
+    padding-right: bp-value($suffix-first, gutter) / 2;
+
+    @each $breakpoint in $bp-suffixes {
+      @media (min-width: bp-value($breakpoint, breakpoint)) {
+        padding-left: bp-value($breakpoint, gutter) / 2;
+        padding-right: bp-value($breakpoint, gutter) / 2;
+      }
+    }
+  }
+}
+
+
+// Offsets
+// ------------------------------------------------------------------
+
+@for $i from 1 through $cols {
+  @for $b from 1 through $cols {
+    @if $i < $b {
+      .col-offset-#{$i}-#{$b} {
+        margin-left: calc(#{$i}/#{$b} * 100%)!important;
+      }
+    }
+  }
+}
+
+@each $breakpoint in $bp-suffixes {
+  @media (min-width: bp-value($breakpoint, breakpoint)) {
+    @for $i from 1 through $cols {
+      @for $b from 1 through $cols {
+        @if $i < $b {
+          .col-offset-#{$breakpoint}-#{$i}-#{$b} {
+            margin-left: calc(#{$i}/#{$b} * 100%)!important;
+          }
+
+          // Offset reset lets us limit offsets to a single screen size
+          .col-offset-#{$breakpoint}-0-#{$b} {
+            margin-left: 0!important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Centered Columns
+// ------------------------------------------------------------------
+
+.col-center {
+  margin-left: auto!important;
+  margin-right: auto!important;
+  float: none!important;
+}
+
+.col-right {
+  float: right!important
+}
+
+@media #{$screen-xs} {
+  .col-xs-center {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    float: none!important;
+  }
+
+  .col-xs-left {
+    float: left!important;
+  }
+
+  .col-xs-right {
+    float: right!important
+  }
+
+}
+
+@media #{$screen-sm-and-up} {
+  .col-sm-center {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    float: none!important;
+  }
+
+  .col-sm-left {
+    float: left!important;
+  }
+
+  .col-sm-right {
+    float: right!important
+  }
+
+}
+
+@media #{$screen-md-and-up} {
+  .col-md-center {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    float: none!important;
+  }
+
+  .col-md-left {
+    float: left!important;
+  }
+
+  .col-md-right {
+    float: right!important
+  }
+}
+
+@media #{$screen-lg} {
+  .col-lg-center {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    float: none!important;
+  }
+
+  .col-lg-left {
+    float: left!important;
+  }
+
+  .col-lg-right {
+    float: right!important
+  }
+}
+
+
+
+// Grid Rows
+// ------------------------------------------------------------------
+
+.grid-row {
+  @include cf;
+
+  margin-left: -(bp-value($suffix-first, gutter)/2);
+  margin-right: -(bp-value($suffix-first, gutter)/2);
+
+  @each $breakpoint in $bp-suffixes {
+    @media (min-width: bp-value($breakpoint, breakpoint)) {
+      margin-left: -(bp-value($breakpoint, gutter)/2);
+      margin-right: -(bp-value($breakpoint, gutter)/2);
+    }
+  }
+}
+
+
+// Grid Columns
+// ------------------------------------------------------------------
+@include grid-cols;
+
+
+// Grid Columns with Breakpoints
+// ------------------------------------------------------------------
+@each $breakpoint in $bp-suffixes {
+  @media (min-width: bp-value($breakpoint, breakpoint)) {
+    @include grid-cols($breakpoint);
+  }
+}
+
+
+// Full-width columns
+// ------------------------------------------------------------------
+
+.col-full {
+  width: 100%;
+}
+
+@media #{$screen-xs} {
+  .col-xs-full {
+    width: 100%!important;
+  }
+}
+
+@media #{$screen-sm-and-up} {
+  .col-sm-full {
+    width: 100%!important;
+  }
+}
+
+@media #{$screen-md-and-up} {
+  .col-md-full {
+    width: 100%!important;
+  }
+}
+
+@media #{$screen-lg} {
+  .col-lg-full {
+    width: 100%!important;
+  }
+}
+
+@media #{$screen-xs} {
+  .nested-full-width-xs {
+    margin-left: -(bp-value(xs, outer));
+    margin-right: -(bp-value(xs, outer));
+    padding-left: bp-value(xs, outer);
+    padding-right: bp-value(xs, outer);
+  }
+}
+
+@media #{$screen-sm} {
+  .nested-full-width-sm {
+    margin-left: -(bp-value(sm, outer));
+    margin-right: -(bp-value(sm, outer));
+    padding-left: bp-value(sm, outer);
+    padding-right: bp-value(sm, outer);
+  }
+}
+
+@media #{$screen-md} {
+  .nested-full-width-md {
+    margin-left: -(bp-value(md, outer));
+    margin-right: -(bp-value(md, outer));
+    padding-left: bp-value(md, outer);
+    padding-right: bp-value(md, outer);
+  }
+}
+
+@media #{$screen-lg} {
+  .nested-full-width-lg {
+    margin-left: -(bp-value(lg, outer));
+    margin-right: -(bp-value(lg, outer));
+    padding-left: bp-value(lg, outer);
+    padding-right: bp-value(lg, outer);
+  }
+}

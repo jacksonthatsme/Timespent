@@ -1,0 +1,48 @@
+// ------------------------------------------------------------------
+// Utilities : Animations : Media Player
+// ------------------------------------------------------------------
+
+
+@keyframes openMediaPlayer {
+  0% {
+    transform: scale(0) translateY(-100%);
+    opacity: 0;
+    top: 100%;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@-webkit-keyframes openMediaPlayer {
+  0% {
+    transform: scale(0) translateY(-100%);
+    opacity: 0;
+    top: 100%;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes minimizeMediaPlayer {
+  0% {
+    width: 80vw;
+  }
+  100% {
+    width: 30vw;
+  }
+}
+
+@-webkit-keyframes minimizeMediaPlayer {
+  0% {
+    width: 80vw;
+  }
+  100% {
+    width: 30vw;
+  }
+}

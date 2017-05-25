@@ -1,0 +1,60 @@
+// ------------------------------------------------------------------
+// VARIABLES: Grid
+// ------------------------------------------------------------------
+
+$vo-grid: (
+  general: (
+    max-width: 1366px,
+    columns: 24
+  ),
+  suffixes:(xs, sm, md, lg),
+  breakpoints: (
+    xs: (
+      gutter: 12px,
+      outer: 24px,
+      breakpoint: 599px,
+    ),
+    sm: (
+      gutter: 24px,
+      outer: 24px,
+      breakpoint: 600px,
+    ),
+    md: (
+      gutter: 30px,
+      outer: 70px,
+      breakpoint: 900px,
+    ),
+    lg: (
+      gutter: 30px,
+      outer: 100px,
+      breakpoint: 1250px,
+    )
+  )
+);
+
+
+
+// Functions and variables
+// ------------------------------------------------------------------
+
+// List containing all media query suffixes (e.g. sm, md, lg)
+$suffix-list: map-deep-get($vo-grid, suffixes);
+// xs, sm, md, lg
+
+// Variable containing the first suffix in our list
+// This is used in cases where we want to set base sizes outside
+// of a media query or a loop through our breakpoints
+$suffix-first: nth(map-deep-get($vo-grid, suffixes),1);
+// xs
+
+// The list of suffixes used for breakpoint based versions of classes
+$bp-suffixes: remove($suffix-list, $suffix-first);
+// sm, md, lg
+
+$max-width: map-deep-get($vo-grid, general, max-width);
+$cols: map-deep-get($vo-grid, general, columns);
+
+$bp-xsmall: bp-value(xs, breakpoint);
+$bp-small: bp-value(sm, breakpoint);
+$bp-medium: bp-value(md, breakpoint);
+$bp-large: bp-value(lg, breakpoint);
