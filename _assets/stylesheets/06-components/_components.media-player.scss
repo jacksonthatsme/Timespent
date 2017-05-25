@@ -177,7 +177,7 @@
   padding: 15px;
 }
 
-.media-player__video__empty {
+.media-player__video__placeholder {
   @include proscenium__layer(0px);
   display: flex;
   justify-content: center;

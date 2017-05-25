@@ -2,10 +2,6 @@
 layout: frame
 ---
 
-<section>
-  <img src="/assets/images/about/vhs.png" alt="VHS TAPE">
-  {% img '{{ about/vhs.png }}' %}
-</section>
 <main>
   <div class="grid-container">
     <div class="grid-row">
@@ -20,7 +16,7 @@ layout: frame
   <div class="grid-container">
     <div class="grid-row">
       <div class="col-center col-full col-md-16-24">
-        {% for videoItem in site.videos %}
+        {% for videoItem in site.videos reversed %}
 
           {% capture moduloPattern %}{{ forloop.index0 | modulo:2 }}{% endcapture %}
 
@@ -30,7 +26,8 @@ layout: frame
 
             <div class="col-12-24 col-md-8-16">
               <div class="video-item" data-js="video-item" data-marquee-title="{{videoItem.title}} -- {{videoItem.location}} -- {{videoItem.date | date: '%B, %Y'}}" data-mp4-src="assets/videos/{{videoItem.title | slugify}}">
-                <div class="video-item__img" style="background-image: url(assets/images/videos/{{asset_path(videoItem.title | slugify}}.png'))">
+                {% capture videoImgPath %}videos/{{videoItem.title | slugify}}.png{% endcapture %}
+                <div class="video-item__img" style="background-image: url({{ videoImgPath | asset_path }})">
                   <div class="video-item__overlay">
                     <div class="video-item__cta" data-js="video-item__cta">
                       play

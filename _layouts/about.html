@@ -2,12 +2,20 @@
 layout: frame
 ---
 
-<section>
-  <img src="/assets/images/about/vhs.png" alt="VHS TAPE">
-</section>
-<section>
-{% for section in page.sections %}
-  <div class="manifesto__subhead">{{section.title}}</div>
-  <div class="manifesto__body">{{section.body}}</div>
-{% endfor %}
-</section>
+<main>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="col-center col-full col-md-16-24">
+        <section>
+          <img src="{% asset_path about/vhs.png %}"/>
+        </section>
+        <section>
+          {% for section in page.sections %}
+            <div class="manifesto__subhead">{{section.title}}</div>
+            <div class="manifesto__body">{{section.body}}</div>
+          {% endfor %}
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
