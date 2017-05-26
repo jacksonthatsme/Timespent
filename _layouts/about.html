@@ -7,7 +7,7 @@ layout: frame
     <div class="grid-row">
       <div class="col-center col-full col-md-16-24">
         <section>
-          <img src="{% asset_path about/vhs.png %}"/>
+          <img src="{{ 'about/vhs.png' | asset_path }}"/>
         </section>
         <section>
           {% for section in page.sections %}
