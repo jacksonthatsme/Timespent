@@ -36,9 +36,7 @@ assets:
   compress:
     css: true
     js: true
-
   cache: false
-
   sources:
   - _assets/stylesheets
   - _assets/images
