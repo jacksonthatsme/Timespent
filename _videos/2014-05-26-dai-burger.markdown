@@ -2,6 +2,7 @@
 title: Dai Burger
 date: 2014-05-26 00:00:00 Z
 location: Queens, NY
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/dai-burger.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/daiburger

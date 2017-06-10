@@ -2,6 +2,7 @@
 title: RAPDRAGONS AT WAYFARERS
 date: 2013-08-11 00:00:00 Z
 location: Baltimore, MD
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/rapdragons-at-wayfarers.mp4
 links:
 - name: Website
   url: http://www.rapdragons.ltdcomp.com/

@@ -2,6 +2,7 @@
 title: Zaiah Burke
 date: 2011-09-01 00:00:00 Z
 location: Newport News, VA
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/zaiah-burke.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/zaiah-burke

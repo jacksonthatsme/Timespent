@@ -2,6 +2,7 @@
 title: Weekend Money
 date: 2014-10-25 00:00:00 Z
 location: Brooklyn, NY
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/weekend-money.mp4
 links:
 - name: Website
   url: http://www.mtv.com/artists/weekend-money

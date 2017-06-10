@@ -2,6 +2,7 @@
 title: 83Cutlass
 date: 2012-03-22 00:00:00 Z
 location: Baltimore, MD
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/83cutlass.mp4
 links:
 - name: Website
   url: http://83cutlass.com/

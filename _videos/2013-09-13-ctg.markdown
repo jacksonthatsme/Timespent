@@ -2,6 +2,7 @@
 title: Chapman
 date: 2013-09-13 00:00:00 Z
 location: Chicago, IL
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/ctg.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/mynameischapman

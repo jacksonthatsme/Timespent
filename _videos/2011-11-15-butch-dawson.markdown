@@ -2,6 +2,7 @@
 title: Butch Dawson
 date: 2011-11-15 00:00:00 Z
 location: Baltimore, MD
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/butch-dawson.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/butchdawson

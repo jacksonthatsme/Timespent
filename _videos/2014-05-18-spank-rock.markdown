@@ -2,6 +2,7 @@
 title: Spank Rock
 date: 2014-05-18 00:00:00 Z
 location: Baltimore, MD
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/spank-rock.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/badbloodrecords

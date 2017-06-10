@@ -2,6 +2,7 @@
 title: Cunt Mafia
 date: 2014-01-24 00:00:00 Z
 location: Brooklyn, NY
+src: https://s3.us-east-2.amazonaws.com/timespent-assets/cunt-mafia.mp4
 links:
 - name: Soundcloud 1
   url: https://soundcloud.com/cuntmafia
