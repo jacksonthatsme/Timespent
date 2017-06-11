@@ -34,4 +34,5 @@ exclude: ["Gemfile",
           "Gemfile.lock",
           "gulpfile.js",
           "node_modules",
-          "package.json"]
+          "package.json",
+          "assets/sass/"]
