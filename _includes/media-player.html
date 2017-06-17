@@ -26,8 +26,7 @@
           </div>
         </div>
       </div>
-      {% capture firstVideoImg %}videos/{{firstVideo.title | slugify}}.png{% endcapture %}
-      <div class="media-player__video__placeholder visible" style="background-image: url({{ firstVideoImg | asset_path }})" data-js="media-player__video__placeholder">
+      <div class="media-player__video__placeholder visible" style="background-image: url({{firstVideo.img-src}})" data-js="media-player__video__placeholder">
       </div>
     </div>
   </div>
