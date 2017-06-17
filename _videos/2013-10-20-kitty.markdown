@@ -2,7 +2,8 @@
 title: Kitty
 date: 2013-10-20 00:00:00 Z
 location: Daytona Beach, FL
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/kitty.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/kitty.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/kitty.mp4
 links:
 - name: Website
   url: http://miamigarden.club/

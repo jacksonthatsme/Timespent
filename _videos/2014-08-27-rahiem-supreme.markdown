@@ -2,7 +2,8 @@
 title: Rahiem Supreme
 date: 2014-08-27 00:00:00 Z
 location: Washington, DC
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/rahiem-supreme.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/rahiem-supreme.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/rahiem-supreme.mp4
 links:
 - name: Website
   url: http://rahiemsupreme.com/

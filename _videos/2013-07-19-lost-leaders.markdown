@@ -2,7 +2,8 @@
 title: LOST LEADERS
 date: 2013-07-19 00:00:00 Z
 location: Baltimore, MD
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/lost-leaders.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/lost-leaders.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/lost-leaders.mp4
 links:
 ---
 

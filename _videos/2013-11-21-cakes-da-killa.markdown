@@ -2,7 +2,8 @@
 title: Cakes Da Killa
 date: 2013-11-21 00:00:00 Z
 location: Englewood, NJ
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/cakes-da-killa.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/cakes-da-killa.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/cakes-da-killa.mp4
 links:
 - name: Website
   url: http://cakesdakilla.com/

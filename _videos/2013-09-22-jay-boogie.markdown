@@ -2,7 +2,8 @@
 title: Jay Boogie
 date: 2013-09-22 00:00:00 Z
 location: Brooklyn, NY
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/jay-boogie.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/jay-boogie.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/jay-boogie.mp4
 links:
 - name: Website
   url: http://www.joelnewyork.com/

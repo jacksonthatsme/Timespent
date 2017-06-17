@@ -2,7 +2,8 @@
 title: RapDragons
 date: 2012-03-22 00:00:00 Z
 location: Baltimore, MD
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/rapdragons.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/rapdragons.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/rapdragons.mp4
 links:
 - name: Website
   url: http://www.rapdragons.ltdcomp.com/

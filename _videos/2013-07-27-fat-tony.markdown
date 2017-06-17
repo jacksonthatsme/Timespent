@@ -2,7 +2,8 @@
 title: Fat Tony
 date: 2013-07-27 00:00:00 Z
 location: Houston, TX
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/fat-tony.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/fat-tony.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/fat-tony.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/fattonyrap

@@ -2,7 +2,8 @@
 title: NYC Spell
 date: 2014-03-06 00:00:00 Z
 location: Brooklyn, NY
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/nyc-spell.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nyc-spell.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/nyc-spell.mp4
 links:
 ---
 

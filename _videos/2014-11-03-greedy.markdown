@@ -2,7 +2,8 @@
 title: Greedy
 date: 2014-11-03 00:00:00 Z
 location: Baltimore, MD
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/greedy.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/greedy.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/greedy.mp4
 links:
 - name: Youtube
   url: hhttps://www.youtube.com/channel/UCh54IespTGE5GfjsdUajkZQ

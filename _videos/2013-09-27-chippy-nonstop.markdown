@@ -2,7 +2,8 @@
 title: Chippy Nonstop
 date: 2013-09-27 00:00:00 Z
 location: Oakland, CA
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/chippy-nonstop.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/chippy-nonstop.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/chippy-nonstop.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/chippynonstop

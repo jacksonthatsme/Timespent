@@ -2,7 +2,8 @@
 title: HEMLOCK ERNST
 date: 2013-07-26 00:00:00 Z
 location: Baltimore, MD
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/hemlock-ernst.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/hemlock-ernst.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/hemlock-ernst.mp4
 links:
 - name: Website
   url: http://www.hemlockernst.com/

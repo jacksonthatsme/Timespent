@@ -2,7 +2,8 @@
 title: Tom Cruz
 date: 2013-10-13 00:00:00 Z
 location: Atlanta, GA
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/tom-cruz.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/tom-cruz.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/tom-cruz.mp4
 links:
 - name: Bandcamp
   url: http://tomcruz.bandcamp.com/

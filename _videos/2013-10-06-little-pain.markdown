@@ -2,7 +2,8 @@
 title: Little Pain
 date: 2013-10-06 00:00:00 Z
 location: Brooklyn, NY
-src: https://s3.us-east-2.amazonaws.com/timespent-assets/little-pain.mp4
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/little-pain.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/little-pain.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/rapgamewarrensapp-1
