@@ -2,6 +2,8 @@
 title: Milo
 date: 2015-12-12 00:00:00 Z
 location: Kenosha, WI
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/milo.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/milo.mp4
 links:
 - name: Bandcamp
   url: miloraps.bandcamp.com

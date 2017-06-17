@@ -2,6 +2,8 @@
 title: Disturbed Individuals
 date: 2013-07-20 00:00:00 Z
 location: Baltimore, MD
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/disturbed-individuals.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/disturbed-individuals.mp4
 links:
 - name: Website
   url: https://disturbedindividuals.bandcamp.com/

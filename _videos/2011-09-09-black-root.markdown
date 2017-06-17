@@ -2,6 +2,8 @@
 title: Black Root
 date: 2011-09-09 00:00:00 Z
 location: Baltimore, MD
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/black-root.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/black-root.mp4
 links:
 - name: Bandcamp
   url: http://blackroot1.bandcamp.com/

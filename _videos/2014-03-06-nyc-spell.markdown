@@ -2,7 +2,9 @@
 title: NYC Spell
 date: 2014-03-06 00:00:00 Z
 location: Brooklyn, NY
-links: 
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nyc-spell.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/nyc-spell.mp4
+links:
 ---
 
 On the set of Jay Boogie's TIMESPENT he kept telling us about his friend NYC SPELL. A couple of months later we met up with NYC SPELL in Brooklyn. Spell and a few of his friends took us to a random apartment complex in Brooklyn. He said he had been obsessing over doing a video in the elevator there and assured us he knew the Super. For the record we started from the bottom, and the building Super didn't care.

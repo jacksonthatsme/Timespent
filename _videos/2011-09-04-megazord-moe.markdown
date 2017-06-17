@@ -2,10 +2,12 @@
 title: Megazord Moe
 date: 2011-09-04 00:00:00 Z
 location: Baltimore, MD
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/megazord-moe.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/megazord-moe.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/stoopbabymo/
-- name: Instgram
+- name: Instagram
   url: https://www.instagram.com/stoopbabymo/
 ---
 

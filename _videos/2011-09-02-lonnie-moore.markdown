@@ -2,6 +2,8 @@
 title: Lonnie Moore
 date: 2011-09-02 00:00:00 Z
 location: Baltimore, MD
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/lonnie-moore.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/lonnie-moore.mp4
 links:
 - name: Soundcloud
   url: https://soundcloud.com/lonniemoore23

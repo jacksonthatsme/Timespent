@@ -2,6 +2,8 @@
 title: Nick Often
 date: 2011-09-08 00:00:00 Z
 location: Baltimore, MD
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nick-often.png
+video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/nick-often.mp4
 links:
 - name: Website
   url: http://www.ltdcomp.com/
