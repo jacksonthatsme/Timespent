@@ -30,9 +30,10 @@ defaults:
     layout: video
     permalink: "/videos/:title/"
 permalink: pretty
-exclude: ["Gemfile",
-          "Gemfile.lock",
-          "gulpfile.js",
-          "node_modules",
-          "package.json",
-          "assets/sass/"]
+exclude:
+- Gemfile
+- Gemfile.lock
+- gulpfile.js
+- node_modules
+- package.json
+- assets/sass/
