@@ -11,4 +11,4 @@ links:
   url: https://twitter.com/ezewriter
 ---
 
-REPLACE SOON
+This week on TIME SPENT we have a brand new video with Soul Cannon front man Eze Jackson. We met up and filmed at his favorite local coffee shop Dovecote Cafe located in Baltimore's Reservoir Hill neighborhood. Thanks Eze. www.timespent.biz
