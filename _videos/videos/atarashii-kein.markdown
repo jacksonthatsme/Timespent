@@ -5,7 +5,10 @@ location: Baltimore, MD
 img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/atarashi-kein.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/atarashi-kein.mp4
 links:
-- twitter: https://twitter.com/Atarashii_Kein?lang=en
+- name: twitter
+  url: https://twitter.com/Atarashii_Kein
+- name: SoundCloud
+  url: https://soundcloud.com/atarashii-kein
 ---
 
-REPLACE SOON 
+After a few weeks off we are back with a brand new TIME SPENT with Rapper, visual artist, and sometimes uber driver Atarashii Kein.
