@@ -6,9 +6,9 @@ img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/jpegmafia.pn
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/jpegmafia.mp4
 links:
 - name: Soundcloud
-  url: https://soundcloud.com/jacktopht
+  url: https://soundcloud.com/jpegmafia
 - name: Twitter
-  url: https://twitter.com/jacktopht
+  url: https://twitter.com/darkskinmanson
 ---
 
-Jack Topht is a rapper from Buffalo, NY (our first NY rapper). Last year we went to a Floristree show to see David Leiberhart. After the first opener we were introduced to Jack Topht and the Vegetables. His live show blew us away and we knew we would have to work with him on something in the future. Jack was in Baltimore for the start of a tour with Height With Friends. It was great hanging out with Jack and catching up on his new work. We definitely gained one of our most unique raps yet. If Jack is ever in your town, please take all of your friends with you to see him. His live shows are legendary. Big thanks to the MICA gym staff for letting us shoot!
+We're back with our first video of 2017. First up is Baltimore rapper JPEGMAFIA. We caught up with him and explored some abandoned rooms in a nearby building. Thanks Peggy.
