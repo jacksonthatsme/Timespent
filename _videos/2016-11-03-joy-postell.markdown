@@ -11,4 +11,4 @@ links:
   url: https://twitter.com/joypostell
 ---
 
-REPLACE SOON
+This week on TIME SPENT we have Baltimore rapper/singer Joy Postell. We headed straight to her after arriving in town for a very personal performance in her room.
