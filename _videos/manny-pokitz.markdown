@@ -7,7 +7,7 @@ video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/manny-poki
 links:
 - name: soundcloud
   url: https://soundcloud.com/mannypokitz
-- Name: youtube
+- name: youtube
   url: https://www.youtube.com/watch?v=XSDuVTdz9G8
 ---
 
