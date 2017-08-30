@@ -6,7 +6,9 @@ img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/manny-pokitz
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/manny-pokitz.mp4
 links:
 - Name: soundcloud
-  url: https://soundcloud.com/mannypokitz
+  url: soundcloud
+- Name: soundcloud
+  url: soundcloud
 ---
 
 When we shot our TIME SPENT with Atarashii Kein he drove us around Baltimore and introduced us to a few artists. We got to spend the day with Slum Paradise's Manny Pokitz and Nick Perkins. Here is Richmond's Manny Pokitz performing in a Copycat building elevator. Next up we have a TIME SPENT with Nick Perkins
