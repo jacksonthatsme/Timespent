@@ -5,7 +5,7 @@ location: Richmond, VA
 img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/manny-pokitz.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/manny-pokitz.mp4
 links:
-- Name: soundcloud
+- name: soundcloud
   url: https://soundcloud.com/mannypokitz
 - Name: youtube
   url: https://www.youtube.com/watch?v=XSDuVTdz9G8
