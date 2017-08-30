@@ -1,6 +1,6 @@
 ---
-title: manny pokitz
-date: 2017-11-05 17:46:00 Z
+title: Manny Pokitz
+date: 2017-11-05 22:46:00 Z
 location: Richmond, VA
 img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/manny-pokitz.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/manny-pokitz.mp4
