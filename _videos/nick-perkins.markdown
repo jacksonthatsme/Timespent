@@ -2,7 +2,7 @@
 title: Nick Perkins
 date: 2016-11-06 16:38:00 Z
 location: Baltimore, MD
-img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nick-often.png
+img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nick-perkins.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/nick-perkins.mp4
 Field name:
 - name: soundcloud
