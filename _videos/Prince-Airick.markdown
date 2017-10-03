@@ -11,4 +11,4 @@ links:
   Link: https://soundcloud.com/princeairick
 ---
 
-TEST TEST TEST 
+We met up with DC based rapper Prince Airick while he was at Harlem Photography Studio. Video shot by guest director Mike Rich (Bronx, NY) during Airick's photo shoot.
