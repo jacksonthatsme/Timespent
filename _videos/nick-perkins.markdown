@@ -1,6 +1,6 @@
 ---
 title: Nick Perkins
-date: 2016-11-01 16:38:00 Z
+date: 2016-11-01 13:38:00 Z
 location: Baltimore, MD
 img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/nick-perkins.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/nick-perkins.mp4
