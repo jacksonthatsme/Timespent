@@ -1,6 +1,6 @@
 ---
 title: JPEGMAFIA
-date: 2016-11-02 00:00:00 Z
+date: 2016-11-05 00:00:00 Z
 location: Baltimore, MD
 img-src: https://s3.us-east-2.amazonaws.com/timespent-assets/images/jpegmafia.png
 video-src: https://s3.us-east-2.amazonaws.com/timespent-assets/videos/jpegmafia.mp4
